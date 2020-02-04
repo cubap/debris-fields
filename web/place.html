@@ -193,7 +193,7 @@
                                 "body.targetCollection": "CivilWarSTLLocationsTest"
                             }]
                         }
-                        fetch(LR.URLS.QUERY, {
+                        fetch("http://tinydev.rerum.io/app/query", {
                                 method: "POST",
                                 mode: "cors",
                                 body: JSON.stringify(queryObj)
